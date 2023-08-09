@@ -11,6 +11,8 @@ public class Day3_1 {
 		
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
+		
+		driver.close();
 
 	}
 
